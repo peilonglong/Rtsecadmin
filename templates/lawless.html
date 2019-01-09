@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="col-md-12">
+        <h1 class="page-header">
+            健信RTSEC网络安全管理攻击
+        </h1>
+        <div class="breadcrumb">
+            <div class="row">
+                <div class="col-xs-10">
+                    <a href="#">
+                        <button type="button" class="btn btn-success" >（启动）Start</button>
+                    </a>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-danger" >（恢复）Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="newspaper">
+                <button type="button" class="btn btn-success">启动</button>
+                <p3>U盘攻击:</p3>
+                <h4>非法U盘插入报警。</h4>
+            </div>
+        </div>
+         <div class="col-xs-4">
+            <div>
+            <button type="button" class="btn btn-success">启动</button>
+            <p3>GPS攻击:</p3>
+                <h4>攻击GPS时钟。</h4>
+       </div>
+        </div>
+         <div class="col-xs-4">
+            <div>
+        <button type="button" class="btn btn-success">启动</button>
+        <p3>无线攻击:</p3>
+        <h4>利用无线连接对内部设备发起攻击。</h4>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
